@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base window theme; all visible UI is drawn with Compose Material 3. -->
+    <style name="Theme.CalcQuest" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/map_cream</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Launch screen: matches the map background and shows the route icon. No artificial delay. -->
+    <style name="Theme.CalcQuest.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/map_cream</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.CalcQuest</item>
+    </style>
+</resources>

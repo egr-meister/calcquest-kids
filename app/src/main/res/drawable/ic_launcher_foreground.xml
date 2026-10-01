@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- dotted route -->
+    <path android:fillColor="#00000000" android:strokeColor="#2F3A45" android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M36,70 m0,0 l0.01,0 M41,66 l0.01,0 M46,62 l0.01,0 M52,60 l0.01,0 M58,59 l0.01,0 M64,57 l0.01,0 M69,53 l0.01,0" />
+    <!-- start landmark -->
+    <path android:fillColor="#7FA77A" android:pathData="M33,74 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <!-- goal badge with plus -->
+    <path android:fillColor="#8FA9D6" android:pathData="M72,46 m-14,0 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0" />
+    <path android:fillColor="#FFFFFF" android:pathData="M69.5,37 h5 v6.5 h6.5 v5 h-6.5 v6.5 h-5 v-6.5 h-6.5 v-5 h6.5 z" />
+</vector>
