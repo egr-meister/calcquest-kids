@@ -36,10 +36,12 @@ fun AppIcon(@DrawableRes id: Int, contentDescription: String?, modifier: Modifie
 }
 
 /** Top bar area: status bar, display cutout and horizontal system insets. */
+@Composable
 fun Modifier.topBarInsets(): Modifier =
     this.windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top + WindowInsetsSides.Horizontal))
 
 /** Bottom bar area: navigation bar, cutout and horizontal insets. */
+@Composable
 fun Modifier.bottomBarInsets(): Modifier =
     this.windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Bottom + WindowInsetsSides.Horizontal))
 
